@@ -15,37 +15,38 @@ a{
 }
 
 .navbar {
-    position: fixed ;
+    position: fixed;
     left: 0;
     top: 0;
     width: 100%;
     padding: 25px 9%;
-    background:slateblue;
+    background: slateblue;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    z-index: 100;}
-.navbar .logo {
-    font-size: 30px;
-    font-weight:700 ;
-
-}
-.navbar u1{
+    z-index: 100;
+  }
+  
+  .navbar ul {
     display: flex;
-}
-.navbar u1 li{
+  }
+  
+  .navbar ul li {
     list-style: none;
-    margin-left:  35px; ;
-}
-.navbar u1 li a{
-    font: size 20px;
+    margin-left: 35px;
+  }
+  
+  .navbar ul li a {
+    font-size: 20px;
     font-weight: 500;
-    transition: .5s;
-}
-.navbar u1 li:hover a,
-.navbar u1 li.active a{
+    transition: 0.5s;
+  }
+  
+  .navbar ul li:hover a,
+  .navbar ul li.active a {
     color: greenyellow;
-}
+  }
+  
 .home{
     display:flex;
     align-items: center;
