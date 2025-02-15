@@ -95,15 +95,7 @@ a{
 
 }
 
-.home-info.btn-sci .sci a{
-    display: inline-flex;
-    padding: 10px;
-    border :2px solid green;
-    border-radius: 50%;
-    font-size: 20px;
-    margin:0 8px;
-    transition: .5s;
-}
+
 
 .home-info.btn-sci .sci a:hover{
     background: green;
@@ -122,8 +114,7 @@ a{
     align-items: center;
     overflow: hidden;
     }
-    .home-img .img-box::before,
-    .home-img .img-box::after{
+    .home-img .img-box{
         content:' ';
         position: absolute;
         width: 500px;
@@ -151,3 +142,31 @@ a{
         mix-blend-mode: lighten;
 
     }
+
+
+    .contact.contact-info ul a{
+        display: inline-flex;
+        padding: 10px;
+        border :20px  green(128, 0, 0);
+        border-radius: 50%;
+        font-size: 20px;
+        margin:0 8px;
+        transition: .5s;
+    }
+
+    .about{
+       
+       
+        height: 100vh;
+        
+        color: #fff;
+    }
+
+    .contact{
+        height: 100vh;
+        
+        color: #fff;
+    }
+        
+    
+
