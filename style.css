@@ -8,6 +8,9 @@
 }
 body{
     background:  #1f242d; 
+    background: radial-gradient(circle at top, #1e3c72, #2a5298);
+    height: 100vh;
+    
 }
 a{
     color: #fff;
@@ -56,6 +59,7 @@ a{
 }
 .home-info h1{
     font-size: 55px;
+    color: #24d42d;
 
 }
 .home-info h2{
@@ -161,15 +165,19 @@ a{
        
         height: 100vh;
         
-        color: #fff;
+        color: #ffffff;
+    }
+    .about h2{
+     
+        color: #2dc120;
     }
 
     .contact{
         height: 100vh;
         align-items: center;
         padding: 60px 9% 0;
-        
         color: #fff;
+        margin:100px 28px;
     }
         
     
