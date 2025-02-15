@@ -14,7 +14,6 @@ This is my personal portfolio website that showcases my skills, projects, and co
 ## 🛠️ Technologies Used
 - HTML5
 - CSS3
-- JavaScript (Optional for Interactivity)
 - Boxicons for Icons
 - Google Fonts (Poppins)
 
