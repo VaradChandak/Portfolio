@@ -155,7 +155,9 @@ a{
     }
 
     .about{
-       
+        align-items: center;
+        padding: 60px 9% 0;
+        
        
         height: 100vh;
         
@@ -164,6 +166,8 @@ a{
 
     .contact{
         height: 100vh;
+        align-items: center;
+        padding: 60px 9% 0;
         
         color: #fff;
     }
